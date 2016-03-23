@@ -1,0 +1,2 @@
+# EmptyLayout
+通过两种方式来实现空布局,一种是通过listview.setemptylayout/一种是通过自定义linearlayout来实现
