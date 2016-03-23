@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E6E6E6" >
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/py"/>
+
+    <TextView
+        android:id="@+id/empty_text"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:padding="5dip"
+        android:text="抱歉,暂时没有发现可推荐的新朋友,"
+        android:textSize="16sp" />
+    
+    <TextView
+        android:id="@+id/empty_text_2"
+        android:layout_width="320dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:padding="5dip"
+        android:text="不如邀请手机联系人,让你朋友圈high起来~"
+        android:textSize="16sp" />
+    
+    <Button 
+        android:id="@+id/empty_button"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/error_btn_shape"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:text="邀请"/>
+
+</LinearLayout>
